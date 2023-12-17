@@ -5,6 +5,7 @@ class User < ApplicationRecord
 
   validates :github_id, uniqueness: true
 
+  # TODO: date to a constant
   QUERY = <<-SQL
     WITH last_week_pulls
       AS
