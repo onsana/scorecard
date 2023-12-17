@@ -39,3 +39,5 @@
 
 /node_modules
 logfile
+
+/config/credentials/development.key
